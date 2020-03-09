@@ -1,0 +1,35 @@
+.search {
+    background: #fff;
+    height: 100%;
+
+    ul {
+        li {
+            height: 44px;
+            margin: 0 12px;
+
+            .am-list {
+                height: 100%;
+                line-height: 44px;
+
+                .am-list-body {
+                    height: 100%;
+                    color: #bfbfbf;
+                    font-size: 16px;
+
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        .all {
+            .am-list {
+                text-align:center;
+                .am-list-body {
+                    color: #0084ff;
+                }
+            }
+        }
+    }
+}

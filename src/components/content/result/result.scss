@@ -1,0 +1,90 @@
+.result {
+    background: #f6f6f6;
+
+    .list {
+        em {
+            color: red;
+            font-style: normal;
+        }
+
+        .item {
+            box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+            padding: 14px;
+            background: #fff;
+            margin-bottom: 14px;
+
+            .title {
+                font-size: 16px;
+                margin-bottom: 10px;
+
+            }
+
+            >div:nth-of-type(1) {
+                display: flex;
+
+                .content {
+                    min-width: 241px;
+                    margin-right: 5px;
+                    height: 44px;
+                    display: -webkit-box;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    font-size: 14px;
+                    line-height: 22px;
+
+                    span {
+                        p {
+                            display: inline;
+                        }
+
+                        &:nth-of-type(1) {
+                            font-weight: bold;
+                        }
+
+                        &:nth-of-type(2) {
+                            margin-left: 6px;
+                        }
+                    }
+
+                }
+
+                img {
+                    width: 105px;
+                }
+            }
+
+            >div:nth-of-type(2) {
+                margin-top: 10px;
+
+                button {
+                    line-height: 26px;
+                    padding: 0 10px;
+                    color: #0084ff;
+                    background: rgba(0, 132, 255, .1);
+                    border-color: transparent;
+                    font-size: 14px;
+                    text-align: center;
+                    border: 1px solid rgba(0, 132, 255, .1);
+                    border-radius: 3px;
+
+                    .fa-caret-up {
+                        font-size: 16px;
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-left: 10px;
+                    }
+                }
+
+                >span {
+                    margin-left: 18px;
+                    font-size: 14px;
+                    color: #8590a6;
+                }
+            }
+
+        }
+    }
+}
